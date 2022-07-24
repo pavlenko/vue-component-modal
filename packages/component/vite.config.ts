@@ -9,6 +9,9 @@ export default defineConfig({
       name: 'PEModal',
       entry: path.resolve(__dirname, 'src/main.ts'),
       formats: ['es', 'umd', 'cjs'],
+      fileName: (format) => {
+        return 'es' !== format ? `PEModal.${format}.js` : `PEModal.esm.js`
+      },
     },
     minify: false,
     rollupOptions: {
