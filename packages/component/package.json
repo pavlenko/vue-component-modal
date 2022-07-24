@@ -2,8 +2,7 @@
   "name": "@pe/vue-component-modal",
   "private": false,
   "scripts": {
-    "serve": "vite",
-    "build": "vite build && tsc --emitDeclarationOnly"
+    "build": "vite build"
   },
   "peerDependencies": {
     "vue": "^3.2.0"

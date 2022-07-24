@@ -1,4 +1,8 @@
 import { createApp } from 'vue'
+import { PEModalPlugin } from "@pe/vue-component-modal/src/main";
 import App from './App.vue'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.use(PEModalPlugin)
+
+app.mount('#app')
