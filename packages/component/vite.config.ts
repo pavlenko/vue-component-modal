@@ -8,7 +8,9 @@ export default defineConfig({
     lib: {
       name: 'PEModal',
       entry: path.resolve(__dirname, 'src/main.ts'),
+      formats: ['es', 'umd', 'cjs'],
     },
+    minify: false,
     rollupOptions: {
       external: ['vue'],
       output: {
