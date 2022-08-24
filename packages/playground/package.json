@@ -12,6 +12,10 @@
     "@pe/vue-component-modal": "./../component",
     "@types/node": "^18.0.0",
     "@vitejs/plugin-vue": "^3.0.0",
+    "bootstrap-3": "npm:bootstrap@^3.0",
+    "bootstrap-4": "npm:bootstrap@^4.0",
+    "bootstrap-5": "npm:bootstrap@^5.0",
+    "sass": "^1.54.5",
     "typescript": "^4.6.0",
     "vite": "^3.0.0",
     "vue-tsc": "^0.38.0"

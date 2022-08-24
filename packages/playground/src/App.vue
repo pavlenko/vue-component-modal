@@ -1,8 +1,8 @@
 <template>
   <div>
     Hello World
-    <PEModal></PEModal>
-    <button type="button" @click="$modal.show">AAA</button>
+    <PEModalContainer></PEModalContainer>
+    <button type="button" @click="$modal.show('PEModal')">show</button>
   </div>
 </template>
 

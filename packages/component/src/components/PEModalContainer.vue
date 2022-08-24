@@ -1,15 +1,16 @@
 <template>
-  <div>
-    <container
-        v-for="modal in modals" :key="modal.id" :is="modal.component">
-      <template></template>
-    </container>
+  <div style="height: 450px; position: relative">
+    <component
+        v-for="(modal, index) in $modal.modals"
+        :key="index"
+        :is="modal.component"
+        :modal="modal">
+      {{ modal }}
+    </component>
   </div>
 </template>
 
-<script setup lang="ts">
-let modals = [];
-</script>
+<script setup lang="ts"></script>
 
 <style scoped>
 

@@ -1,3 +1,5 @@
+import 'bootstrap-5/scss/bootstrap.scss'
+
 import { createApp } from 'vue'
 import { PEModalPlugin } from "@pe/vue-component-modal/src/main";
 import App from './App.vue'
